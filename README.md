@@ -1,24 +1,10 @@
-# README
+# GUIA PARA USAR O PROJETO
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## clone o repositório 
 
-Things you may want to cover:
+``` git clone git@github.com:JulioVianaDev/hotrails-sabado.git ```
 
-* Ruby version
+## entrar no projeto
 
-* System dependencies
+````cd hotrails-sabado```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
