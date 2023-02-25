@@ -3,7 +3,7 @@ class ComidasController < ApplicationController
 
   # GET /comidas or /comidas.json
   def index
-    @comidas = Comida.all
+    @comidas = Comida.paginate(page: params[:page])
   end
 
   # GET /comidas/1 or /comidas/1.json
