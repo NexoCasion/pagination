@@ -1,2 +1,15 @@
-<h1>Posts#create</h1>
-<p>Find me in app/views/posts/create.html.erb</p>
+<h1> Criando post</h1>
+<%= form_with model: @post,data:{type: :hotwire} do |form| %>
+    <div>
+        <%= form.label :title %>
+        <%= form.text_field :title %>
+    </div>
+    <div>
+        <%= form.label :body %>
+        <%= form.text_field :body %>
+    </div>
+    <div>
+    <%= form.submit %>
+    </div>
+<% end %>
+<%= link_to "Voltar", posts_path %>
